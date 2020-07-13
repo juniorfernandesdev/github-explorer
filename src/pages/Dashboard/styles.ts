@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { shade } from 'polished'
+import styled from 'styled-components';
+import { shade } from 'polished';
 
 // criando um componente estilizado
 export const Title = styled.h1`
@@ -78,7 +78,8 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
@@ -100,5 +101,3 @@ export const Repositories = styled.div`
   }
 
 `;
-
-
