@@ -60,8 +60,9 @@ export const Form = styled.form<FormProps>`
 export const Error = styled.span`
   display: block;
   color: #c53030;
-  margin-top: 8px
+  margin-top: 8px;
 `;
+
 export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
@@ -114,5 +115,4 @@ export const Repositories = styled.div`
     }
 
   }
-
 `;
